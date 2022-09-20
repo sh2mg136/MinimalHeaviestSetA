@@ -50,5 +50,22 @@ namespace TestProject1
             Assert.Equal((int)6, result[0]);
             Assert.Equal((int)7, result[1]);
         }
+
+        [Fact]
+        public void TetsCase3()
+        {
+            var files = SolutionBase.GetDataFiles();
+            Assert.NotNull(files);
+            Assert.True(files.Length > 0);
+            var file = files.Where(x => x.Name.ToLower() == "data3.txt").First();
+            Assert.NotNull(file);
+            var arr = SolutionBase.GetArray(file);
+            Assert.True(arr.Count > 0);
+            List<int> result = Result.minimalHeaviestSetA(arr);
+            Assert.NotNull(result);
+            Assert.True(result.Count > 0);
+            Assert.Equal(2, result.Count);
+        }
+
     }
 }

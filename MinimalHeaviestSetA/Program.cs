@@ -1,6 +1,7 @@
 ﻿//TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 
 try
@@ -57,6 +58,13 @@ public class SolutionBase
 
         return arr;
     }
+
+
+    public static long GetHeaviestPackage(List<int> packageWeights)
+    {
+        return Result.getHeaviestPackage(packageWeights);
+    }
+
 }
 
 public class Result
@@ -70,6 +78,11 @@ public class Result
 
     public static List<int> minimalHeaviestSetA(List<int> arr)
     {
+
+        Dictionary<int, long> d = new Dictionary<int, long>();
+        d.Add(1, 1);
+
+
         var result = new List<int>();
 
         if (arr == null || arr.Count == 0)
@@ -83,14 +96,16 @@ public class Result
 
         var ordered = arr.OrderByDescending(x => x).ToList();
 
-        int sum = 0;
+        long sum = 0;
 
-        var maxi = int.MaxValue;
+        Debug.WriteLine(int.MaxValue);
+        Debug.WriteLine(long.MaxValue);
         var max_arr = arr.Max();
 
         try
         {
-            sum = arr.Sum();
+            // sum = arr.ConvertAll(new Converter<int, long>(I2L)).Sum(x => (long)x);
+            sum = arr.Sum(x => (long)x);
         }
         catch (Exception ex)
         {
@@ -116,7 +131,7 @@ public class Result
         if (sum == 0)
             return new List<int>() { 0 };
 
-        double half = (double)sum / 2;
+        long half = sum / 2;
         Console.WriteLine(half);
 
         var threshold = 0;
@@ -131,4 +146,54 @@ public class Result
 
         return result.OrderBy(x => x).ToList();
     }
+
+    public static long I2L(int i)
+    {
+        return (long)i;
+    }
+
+
+
+    public static long getHeaviestPackage(List<int> packageWeights)
+    {
+        int k = packageWeights.Count;
+
+        List<long> p = packageWeights.Select(x => (long)x).ToList();
+
+        while (k > 0)
+        {
+            k = Find(p);
+            if (k > 0)
+            {
+                p[k-1] += p[k];
+                p.RemoveAt(k);
+            }
+        }
+
+        return p.Max();
+    }
+
+    static int Find(List<long> packageWeights)
+    {
+        if (packageWeights.Count <= 1)
+            return 0;
+
+        Dictionary<int, long> d = new Dictionary<int, long>();
+
+        for (int i = 1; i < packageWeights.Count; i++)
+            d.Add(i, packageWeights[i] - packageWeights[i - 1]);
+
+        try
+        {
+            var m = d.Where(x => x.Value > 0).OrderBy(x => x.Value).First();
+            if (m.Value <= 0)
+                return 0;
+            return m.Key;
+        }
+        catch
+        {
+            return 0;
+        }
+    }
+
 }
