@@ -22,7 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mars Exploration\Mars Exploration.csproj" />
     <ProjectReference Include="..\MinimalHeaviestSetA\MinimalHeaviestSetA.csproj" />
+    <ProjectReference Include="..\TimeConversion\TimeConversion.csproj" />
   </ItemGroup>
 
 </Project>
