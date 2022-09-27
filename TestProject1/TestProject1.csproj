@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppleAndOrange\AppleAndOrange.csproj" />
+    <ProjectReference Include="..\DayOfTheProgrammer\DayOfTheProgrammer.csproj" />
     <ProjectReference Include="..\GradingStudents\GradingStudents.csproj" />
     <ProjectReference Include="..\Mars Exploration\Mars Exploration.csproj" />
     <ProjectReference Include="..\MinimalHeaviestSetA\MinimalHeaviestSetA.csproj" />
