@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTimeInWords", "TheTimeIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDigits", "FindDigits\FindDigits.csproj", "{54A5E098-6588-4A25-B89B-6C100DE40E27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormingAMagicSquare", "FormingAMagicSquare\FormingAMagicSquare.csproj", "{E33B590D-1467-4224-9972-C40BBF81E128}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{54A5E098-6588-4A25-B89B-6C100DE40E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54A5E098-6588-4A25-B89B-6C100DE40E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54A5E098-6588-4A25-B89B-6C100DE40E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33B590D-1467-4224-9972-C40BBF81E128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33B590D-1467-4224-9972-C40BBF81E128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33B590D-1467-4224-9972-C40BBF81E128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33B590D-1467-4224-9972-C40BBF81E128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
