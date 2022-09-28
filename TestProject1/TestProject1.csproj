@@ -27,6 +27,7 @@
     <ProjectReference Include="..\GradingStudents\GradingStudents.csproj" />
     <ProjectReference Include="..\Mars Exploration\Mars Exploration.csproj" />
     <ProjectReference Include="..\MinimalHeaviestSetA\MinimalHeaviestSetA.csproj" />
+    <ProjectReference Include="..\TheTimeInWords\TheTimeInWords.csproj" />
     <ProjectReference Include="..\TimeConversion\TimeConversion.csproj" />
   </ItemGroup>
 

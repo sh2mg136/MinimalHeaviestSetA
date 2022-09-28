@@ -7,27 +7,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalHeaviestSetA", "Mini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C0F2C9F9-1E34-4E4C-8BC4-CBC7B777B08C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{E3DB8165-D6CD-4631-8062-3CDFB5B45652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{E3DB8165-D6CD-4631-8062-3CDFB5B45652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mars Exploration", "Mars Exploration\Mars Exploration.csproj", "{8ED3035F-AED9-4DAB-8CA2-355E8BEEE91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars Exploration", "Mars Exploration\Mars Exploration.csproj", "{8ED3035F-AED9-4DAB-8CA2-355E8BEEE91C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{B37FD022-E69F-469D-9646-86AB958DC65E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{B37FD022-E69F-469D-9646-86AB958DC65E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{FA420175-C534-4EAA-B570-54C6E435072E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{FA420175-C534-4EAA-B570-54C6E435072E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{E298596A-5691-4160-BE65-72A8BF94BE71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{E298596A-5691-4160-BE65-72A8BF94BE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradingStudents", "GradingStudents\GradingStudents.csproj", "{18CA187C-4CF0-413C-BDE9-1801732F683B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradingStudents", "GradingStudents\GradingStudents.csproj", "{18CA187C-4CF0-413C-BDE9-1801732F683B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleAndOrange", "AppleAndOrange\AppleAndOrange.csproj", "{B9320BD3-28A1-49CB-A2CC-84B5EE5F3DAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleAndOrange", "AppleAndOrange\AppleAndOrange.csproj", "{B9320BD3-28A1-49CB-A2CC-84B5EE5F3DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{7D630F0D-735A-4561-AAEF-2E7EFB196AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{7D630F0D-735A-4561-AAEF-2E7EFB196AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "BetweenTwoSets\BetweenTwoSets.csproj", "{283D1D7F-7DF1-4A9D-8748-479C0966D358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetweenTwoSets", "BetweenTwoSets\BetweenTwoSets.csproj", "{283D1D7F-7DF1-4A9D-8748-479C0966D358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{8772BD6D-DF69-4920-83A4-C679AE5406AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{8772BD6D-DF69-4920-83A4-C679AE5406AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfTheProgrammer", "DayOfTheProgrammer\DayOfTheProgrammer.csproj", "{0CA2FCD4-64AE-4668-98C4-2FDC6AF866D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfTheProgrammer", "DayOfTheProgrammer\DayOfTheProgrammer.csproj", "{0CA2FCD4-64AE-4668-98C4-2FDC6AF866D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTimeInWords", "TheTimeInWords\TheTimeInWords.csproj", "{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{0CA2FCD4-64AE-4668-98C4-2FDC6AF866D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CA2FCD4-64AE-4668-98C4-2FDC6AF866D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CA2FCD4-64AE-4668-98C4-2FDC6AF866D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
