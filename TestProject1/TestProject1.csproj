@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppleAndOrange\AppleAndOrange.csproj" />
+    <ProjectReference Include="..\ClimbingTheLeaderboard\ClimbingTheLeaderboard.csproj" />
     <ProjectReference Include="..\DayOfTheProgrammer\DayOfTheProgrammer.csproj" />
     <ProjectReference Include="..\GradingStudents\GradingStudents.csproj" />
     <ProjectReference Include="..\Mars Exploration\Mars Exploration.csproj" />
