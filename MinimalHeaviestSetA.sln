@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalHeaviestSetA", "MinimalHeaviestSetA\MinimalHeaviestSetA.csproj", "{32572580-11AE-484D-A4A5-FC0693ED8284}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C0F2C9F9-1E34-4E4C-8BC4-CBC7B777B08C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "__TestProject1", "TestProject1\__TestProject1.csproj", "{C0F2C9F9-1E34-4E4C-8BC4-CBC7B777B08C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{E3DB8165-D6CD-4631-8062-3CDFB5B45652}"
 EndProject
@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakingTheRecords", "Break
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfTheProgrammer", "DayOfTheProgrammer\DayOfTheProgrammer.csproj", "{0CA2FCD4-64AE-4668-98C4-2FDC6AF866D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTimeInWords", "TheTimeInWords\TheTimeInWords.csproj", "{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheTimeInWords", "TheTimeInWords\TheTimeInWords.csproj", "{3D9B3332-EF21-4BE4-9B08-3472D506BC8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDigits", "FindDigits\FindDigits.csproj", "{54A5E098-6588-4A25-B89B-6C100DE40E27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindDigits", "FindDigits\FindDigits.csproj", "{54A5E098-6588-4A25-B89B-6C100DE40E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormingAMagicSquare", "FormingAMagicSquare\FormingAMagicSquare.csproj", "{E33B590D-1467-4224-9972-C40BBF81E128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormingAMagicSquare", "FormingAMagicSquare\FormingAMagicSquare.csproj", "{E33B590D-1467-4224-9972-C40BBF81E128}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingTheLeaderboard", "ClimbingTheLeaderboard\ClimbingTheLeaderboard.csproj", "{22B12BED-49E8-4805-8915-85E791C6E319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingTheLeaderboard", "ClimbingTheLeaderboard\ClimbingTheLeaderboard.csproj", "{22B12BED-49E8-4805-8915-85E791C6E319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakerRankEncryption", "HakerRankEncryption\HakerRankEncryption.csproj", "{7583FE73-8C57-49CA-B1F5-E3DCD2BBBA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{22B12BED-49E8-4805-8915-85E791C6E319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B12BED-49E8-4805-8915-85E791C6E319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B12BED-49E8-4805-8915-85E791C6E319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7583FE73-8C57-49CA-B1F5-E3DCD2BBBA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7583FE73-8C57-49CA-B1F5-E3DCD2BBBA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7583FE73-8C57-49CA-B1F5-E3DCD2BBBA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7583FE73-8C57-49CA-B1F5-E3DCD2BBBA1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

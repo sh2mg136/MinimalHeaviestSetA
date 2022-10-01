@@ -26,6 +26,7 @@
     <ProjectReference Include="..\ClimbingTheLeaderboard\ClimbingTheLeaderboard.csproj" />
     <ProjectReference Include="..\DayOfTheProgrammer\DayOfTheProgrammer.csproj" />
     <ProjectReference Include="..\GradingStudents\GradingStudents.csproj" />
+    <ProjectReference Include="..\HakerRankEncryption\HakerRankEncryption.csproj" />
     <ProjectReference Include="..\Mars Exploration\Mars Exploration.csproj" />
     <ProjectReference Include="..\MinimalHeaviestSetA\MinimalHeaviestSetA.csproj" />
     <ProjectReference Include="..\TheTimeInWords\TheTimeInWords.csproj" />

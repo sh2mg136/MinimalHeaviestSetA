@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("TestProject1")]
+[assembly: InternalsVisibleTo("__TestProject1")]
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Time Conversion");
