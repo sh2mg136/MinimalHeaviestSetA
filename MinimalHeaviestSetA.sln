@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HakerRankEncryption", "Hake
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubarrayDivision", "SubarrayDivision\SubarrayDivision.csproj", "{6C42944B-783E-485B-9F06-72F0C6604C4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignerPDFViewer", "DesignerPDFViewer\DesignerPDFViewer.csproj", "{C3A0D6AF-CCB3-403F-A758-69A7396CD253}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{6C42944B-783E-485B-9F06-72F0C6604C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C42944B-783E-485B-9F06-72F0C6604C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C42944B-783E-485B-9F06-72F0C6604C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A0D6AF-CCB3-403F-A758-69A7396CD253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A0D6AF-CCB3-403F-A758-69A7396CD253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A0D6AF-CCB3-403F-A758-69A7396CD253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A0D6AF-CCB3-403F-A758-69A7396CD253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
