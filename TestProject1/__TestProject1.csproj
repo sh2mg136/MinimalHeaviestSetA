@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AppleAndOrange\AppleAndOrange.csproj" />
     <ProjectReference Include="..\ClimbingTheLeaderboard\ClimbingTheLeaderboard.csproj" />
+    <ProjectReference Include="..\DataSructures_DynamicArray\DataSructures_DynamicArray.csproj" />
     <ProjectReference Include="..\DayOfTheProgrammer\DayOfTheProgrammer.csproj" />
     <ProjectReference Include="..\GradingStudents\GradingStudents.csproj" />
     <ProjectReference Include="..\HakerRankEncryption\HakerRankEncryption.csproj" />
@@ -31,6 +32,15 @@
     <ProjectReference Include="..\MinimalHeaviestSetA\MinimalHeaviestSetA.csproj" />
     <ProjectReference Include="..\TheTimeInWords\TheTimeInWords.csproj" />
     <ProjectReference Include="..\TimeConversion\TimeConversion.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TestData\DynamicArray\Result1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\DynamicArray\Test1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
