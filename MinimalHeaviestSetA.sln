@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSructures_ArraysDS", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSructures_DynamicArray", "DataSructures_DynamicArray\DataSructures_DynamicArray.csproj", "{D4501724-D4F4-40A9-850F-8F3E9FD47324}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicsShop", "ElectronicsShop\ElectronicsShop.csproj", "{2AA07AEC-4B68-4F8C-B0E2-26E5C1C3164E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D4501724-D4F4-40A9-850F-8F3E9FD47324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4501724-D4F4-40A9-850F-8F3E9FD47324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4501724-D4F4-40A9-850F-8F3E9FD47324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA07AEC-4B68-4F8C-B0E2-26E5C1C3164E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA07AEC-4B68-4F8C-B0E2-26E5C1C3164E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA07AEC-4B68-4F8C-B0E2-26E5C1C3164E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA07AEC-4B68-4F8C-B0E2-26E5C1C3164E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
