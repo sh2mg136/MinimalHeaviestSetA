@@ -1,7 +1,47 @@
 ﻿// https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true
+using CountingValleys;
 using System.Diagnostics;
-using System.Text.RegularExpressions;
 
+
+///
+/// Sherlock And Squares
+/// https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true
+///
+Console.WriteLine("Sherlock And Squares");
+var ires = 0;
+
+ires = SherlockAndSquares.squares(3, 9);
+Debug.Assert(ires == 2);
+
+ires = SherlockAndSquares.squares(17, 24);
+Debug.Assert(ires == 0);
+
+ires = SherlockAndSquares.squares(16, 24);
+Debug.Assert(ires == 1);
+
+ires = SherlockAndSquares.squares(18, 25);
+Debug.Assert(ires == 1);
+
+ires = SherlockAndSquares.squares(395151610, 407596310);
+Debug.Assert(ires == 311);
+
+ires = SherlockAndSquares.squares(465868129, 988379794);
+Debug.Assert(ires == 9855);
+
+ires = SherlockAndSquares.squares(181510012, 293922871);
+Debug.Assert(ires == 3672);
+
+ires = SherlockAndSquares.squares(481403421, 520201871);
+Debug.Assert(ires == 867);
+
+ires = SherlockAndSquares.squares(309804254, 776824625);
+Debug.Assert(ires == 10270);
+
+
+Console.WriteLine(Environment.NewLine);
+Console.WriteLine(Environment.NewLine);
+//////////////////////////////////////
+// https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true
 Console.WriteLine("Counting Valleys");
 
 var result = 0;
@@ -18,6 +58,8 @@ Debug.Assert(result == 1);
 result = CountingValleysSolution.countingValleys(8, "DDUUDDUDUUUD");
 Debug.Assert(result == 2);
 
+Console.WriteLine(Environment.NewLine);
+
 /// <summary>
 /// The Hurdle Race
 /// https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true
@@ -30,11 +72,13 @@ Debug.Assert(result == 0);
 result = TheHurdleRaceSolution.hurdleRace(4, new List<int>() { 1, 6, 3, 5, 2 });
 Debug.Assert(result == 2);
 
+Console.WriteLine(Environment.NewLine);
+Console.WriteLine(Environment.NewLine);
 
 ///
 /// Sequence Equation
 /// https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true
-/// 
+///
 var list = new List<int>();
 
 list = SequenceEquationSolution.permutationEquation(new List<int>() { 2, 3, 1 });
@@ -56,79 +100,11 @@ Debug.Assert(dups.Count == list.Count);
 var distinct = list.Except(correct).ToList();
 Debug.Assert(distinct.Count == 0);
 
-
-
-/// <summary>
-///
-/// </summary>
-internal class CountingValleysSolution
-{
-    public static int countingValleys(int steps, string path)
-    {
-        var result = 0;
-        int cnt = 0;
-        int dir = 0;
-
-        foreach (var ch in path)
-        {
-            switch (ch)
-            {
-                case 'U':
-                    cnt++;
-                    if (cnt == 0)
-                    {
-                        if (dir < 0) result++;
-                        dir = 0;
-                    }
-                    else if (cnt > 1)
-                    {
-                        dir = 1;
-                    }
-                    break;
-
-                case 'D':
-                    cnt--;
-                    if (cnt == 0)
-                    {
-                        dir = 0;
-                    }
-                    else if (cnt < 0)
-                    {
-                        dir = -1;
-                    }
-                    break;
-
-                default:
-                    break;
-            }
-        }
-
-        return result;
-    }
-}
-
 internal class TheHurdleRaceSolution
 {
     public static int hurdleRace(int k, List<int> height)
     {
         var t = height.Where(x => x > k).ToList();
         return t.Any() ? t.Max() - k : 0;
-    }
-}
-
-internal class SequenceEquationSolution
-{
-    public static List<int> permutationEquation(List<int> p)
-    {
-        var result = new List<int>();
-        int cnt = 0;
-        var dict = p.ToDictionary(x => cnt++, x => x);
-        foreach (var ii in Enumerable.Range(0, p.Count))
-        {
-            var pi = dict.Where(x => x.Value == ii + 1).First().Key;
-            var pi2 = dict.Where(x => x.Value == pi + 1).First().Key;
-            result.Add(pi2 + 1);
-        }
-        return result;
     }
 }
