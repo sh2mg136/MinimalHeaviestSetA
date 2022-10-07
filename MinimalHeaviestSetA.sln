@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectronicsShop", "Electron
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrangeCounter", "StrangeCounter\StrangeCounter.csproj", "{2B229795-0093-4C4E-8664-90B8FBDF75B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillDivision", "BillDivision\BillDivision.csproj", "{06013D25-5298-486D-B950-43C587331EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillDivision", "BillDivision\BillDivision.csproj", "{06013D25-5298-486D-B950-43C587331EF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountStrings", "CountStrings\CountStrings.csproj", "{59EF352F-FA29-481D-8392-D9B2678F0ED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountStrings", "CountStrings\CountStrings.csproj", "{59EF352F-FA29-481D-8392-D9B2678F0ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms_Equal", "Algorithms_Equal\Algorithms_Equal.csproj", "{66166A40-2AB8-4940-AA55-4F7A278C9523}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{59EF352F-FA29-481D-8392-D9B2678F0ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EF352F-FA29-481D-8392-D9B2678F0ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EF352F-FA29-481D-8392-D9B2678F0ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66166A40-2AB8-4940-AA55-4F7A278C9523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66166A40-2AB8-4940-AA55-4F7A278C9523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66166A40-2AB8-4940-AA55-4F7A278C9523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66166A40-2AB8-4940-AA55-4F7A278C9523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
