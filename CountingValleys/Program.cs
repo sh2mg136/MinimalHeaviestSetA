@@ -4,6 +4,62 @@ using System.Diagnostics;
 
 
 ///
+/// The Full Counting Sort
+/// https://www.hackerrank.com/challenges/countingsort4/problem?isFullScreen=true
+Console.WriteLine(Environment.NewLine);
+Console.WriteLine("The Full Counting Sort");
+List<List<string>> data = new List<List<string>>();
+var resStr = string.Empty;
+
+data = new List<List<string>>()
+{
+    new List<string>(){ "0", "ab" },
+    new List<string>(){ "6", "cd" },
+    new List<string>(){ "0", "ef" },
+    new List<string>(){ "6", "gh" },
+    new List<string>(){ "4", "ij" },
+    new List<string>(){ "0", "ab" },
+    new List<string>(){ "6", "cd" },
+    new List<string>(){ "0", "ef" },
+    new List<string>(){ "6", "gh" },
+    new List<string>(){ "0", "ij" },
+    new List<string>(){ "4", "that" },
+    new List<string>(){ "3", "be" },
+    new List<string>(){ "0", "to" },
+    new List<string>(){ "1", "be" },
+    new List<string>(){ "5", "question" },
+    new List<string>(){ "1", "or" },
+    new List<string>(){ "2", "not" },
+    new List<string>(){ "4", "is" },
+    new List<string>(){ "2", "to" },
+    new List<string>(){ "4", "the" },
+};
+resStr = TheFullCountingSortSolution.Solve(data);
+Debug.Assert(resStr == "- - - - - to be or not to be - that is the question - - - -");
+
+
+data = new List<List<string>>()
+{
+    new List<string>(){ "1", "e" },
+    new List<string>(){ "2", "a" },
+    new List<string>(){ "1", "b" },
+    new List<string>(){ "3", "a" },
+    new List<string>(){ "4", "f" },
+    new List<string>(){ "1", "f" },
+    new List<string>(){ "2", "a" },
+    new List<string>(){ "1", "e" },
+    new List<string>(){ "1", "b" },
+    new List<string>(){ "1", "c" },
+};
+resStr = TheFullCountingSortSolution.Solve(data);
+string corrStr = "- - f e b c - a - -";
+Debug.Assert(resStr == corrStr);
+
+
+
+Console.WriteLine(Environment.NewLine);
+Console.WriteLine(Environment.NewLine);
+///
 /// Sherlock And Squares
 /// https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true
 ///
