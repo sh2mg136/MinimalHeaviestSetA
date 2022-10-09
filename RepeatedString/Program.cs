@@ -65,7 +65,7 @@ Debug.Assert(str == "No");
 
 str = AppendAndDeleteClass.appendAndDelete(
     "asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv",
-    "asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv", 
+    "asdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcvasdfqwertyuighjkzxcv",
     4);
 Debug.Assert(str == "Yes");
 
@@ -110,3 +110,25 @@ res = BeautifulDaysAtTheMoviesClass.beautifulDays(49860, 205494, 155635764);
 Debug.Assert(res == 607);
 
 
+//
+//
+// Viral Advertising
+// https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true
+//
+res = ViralAdvertisingClass.viralAdvertising(1);
+Debug.Assert(res == 2);
+
+res = ViralAdvertisingClass.viralAdvertising(2);
+Debug.Assert(res == 5);
+
+res = ViralAdvertisingClass.viralAdvertising(3);
+Debug.Assert(res == 9);
+
+res = ViralAdvertisingClass.viralAdvertising(4);
+Debug.Assert(res == 15);
+
+res = ViralAdvertisingClass.viralAdvertising(5);
+Debug.Assert(res == 24);
+
+res = ViralAdvertisingClass.viralAdvertising(6);
+Debug.Assert(res == 37);
