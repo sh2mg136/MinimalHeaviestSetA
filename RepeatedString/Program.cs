@@ -95,3 +95,18 @@ Debug.Assert(str == "No");
 
 str = AppendAndDeleteClass.appendAndDelete("aaa", "aaaaa", 1);
 Debug.Assert(str == "No");
+
+
+
+//
+//
+// Beautiful Days at the Movies
+// https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true
+//
+int res = BeautifulDaysAtTheMoviesClass.beautifulDays(20, 23, 6);
+Debug.Assert(res == 2);
+
+res = BeautifulDaysAtTheMoviesClass.beautifulDays(49860, 205494, 155635764);
+Debug.Assert(res == 607);
+
+
