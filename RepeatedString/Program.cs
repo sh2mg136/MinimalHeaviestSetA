@@ -150,3 +150,45 @@ Debug.Assert(res == 89);
 
 res = JumpingOnTheCloudsClass.jumpingOnClouds(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3);
 Debug.Assert(res == 80);
+
+
+//
+//
+// Save the Prisoner!
+// https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true
+
+res = SaveThePrisonerClass.saveThePrisoner(4, 6, 2);
+Debug.Assert(res == 3);
+
+res = SaveThePrisonerClass.saveThePrisoner(5, 2, 1);
+Debug.Assert(res == 2);
+
+res = SaveThePrisonerClass.saveThePrisoner(5, 2, 2);
+Debug.Assert(res == 3);
+
+res = SaveThePrisonerClass.saveThePrisoner(1, 1, 1);
+Debug.Assert(res == 1);
+
+res = SaveThePrisonerClass.saveThePrisoner(7, 19, 2);
+Debug.Assert(res == 6);
+
+res = SaveThePrisonerClass.saveThePrisoner(3, 7, 3);
+Debug.Assert(res == 3);
+
+res = SaveThePrisonerClass.saveThePrisoner(352926151, 380324688, 94730870);
+Debug.Assert(res == 122129406);
+
+res = SaveThePrisonerClass.saveThePrisoner(499999999, 999999997, 2);
+Debug.Assert(res == 499999999);
+
+res = SaveThePrisonerClass.saveThePrisoner(499999999, 999999998, 2);
+Debug.Assert(res == 1);
+
+res = SaveThePrisonerClass.saveThePrisoner(999999999, 999999999, 1);
+Debug.Assert(res == 999999999);
+
+res = SaveThePrisonerClass.saveThePrisoner(208526924, 756265725, 150817879);
+Debug.Assert(res == 72975907);
+
+res = SaveThePrisonerClass.saveThePrisoner(13, 140874526, 1);
+Debug.Assert(res == 13);
