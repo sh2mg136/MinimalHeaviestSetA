@@ -132,3 +132,21 @@ Debug.Assert(res == 24);
 
 res = ViralAdvertisingClass.viralAdvertising(6);
 Debug.Assert(res == 37);
+
+
+//
+//
+// Jumping on the Clouds: Revisited
+// https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true
+
+res = JumpingOnTheCloudsClass.jumpingOnClouds(new int[] { 0, 0, 1, 0 }, 2);
+Debug.Assert(res == 96);
+
+res = JumpingOnTheCloudsClass.jumpingOnClouds(new int[] { 0, 0, 1, 0, 0, 1, 1, 0 }, 2);
+Debug.Assert(res == 92);
+
+res = JumpingOnTheCloudsClass.jumpingOnClouds(new int[] { 0, 0, 1, 0, 0, 1, 0 }, 2);
+Debug.Assert(res == 89);
+
+res = JumpingOnTheCloudsClass.jumpingOnClouds(new int[] { 1, 1, 1, 0, 1, 1, 0, 0, 0, 0 }, 3);
+Debug.Assert(res == 80);
