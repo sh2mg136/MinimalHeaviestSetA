@@ -192,3 +192,15 @@ Debug.Assert(res == 72975907);
 
 res = SaveThePrisonerClass.saveThePrisoner(13, 140874526, 1);
 Debug.Assert(res == 13);
+
+
+//
+//
+// Library Fine
+// https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true
+
+res = LibraryFineClass.libraryFine(14, 7, 2018, 5, 7, 2018);
+Debug.Assert(res == 135);
+
+res = LibraryFineClass.libraryFine(9, 6, 2015, 6, 6, 2015);
+Debug.Assert(res == 45);
